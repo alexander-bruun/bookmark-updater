@@ -1,0 +1,19 @@
+{
+  "name": "Bookmark Updater",
+  "description": "A button that quickly updates the closest bookmark found to the open tab.",
+  "version": "2.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "bookmarks",
+    "tabs"
+  ]
+}
